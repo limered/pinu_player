@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Pingu Player: a planned Android-only Flutter app that plays curated single Pingu episodes from YouTube for a child. **No code exists yet**; the repo is in the planning phase (no commits, no Flutter project, no build/test commands).
+Pingu Player: a planned Android-only Flutter app that plays curated single Pingu episodes from YouTube for a child. **No app code exists yet**; the repo is in the planning phase (no Flutter app project, no build/test commands). Throwaway spikes live under `spikes/` (each has its own README); they are not the app.
 
 ## Where things live
 
