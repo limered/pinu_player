@@ -4,7 +4,9 @@ Pingu Player: a planned Android-only Flutter app that plays curated single Pingu
 
 ## Where things live
 
-- **Project docs live in the user's Obsidian vault at `C:/_source/obsidian/main/dev/pinu_player`** (outside this repo), not in a repo-local `.scratch/`:
+- **Project docs live in the user's Obsidian vault** (outside this repo), not in a repo-local `.scratch/`. The vault path depends on the machine:
+  - Linux: `/home/limered/Projects/main/dev/pinu_player`
+  - Windows: `C:/_source/obsidian/main/dev/pinu_player`
   - `CONTEXT.md`: the domain glossary (Video, Episode, Compilation, Series, Catalog, Session, Episode Limit). Use these terms exactly; it holds terms only, no implementation details.
   - `wayfinder/`: the local file tracker.
 - `wayfinder/map.md` is the wayfinder map. It holds the Destination, standing Notes, Decisions so far, fog, and out-of-scope items. Read it before any planning or implementation work.
@@ -21,4 +23,5 @@ Pingu Player: a planned Android-only Flutter app that plays curated single Pingu
 
 ## Environment
 
-- Windows / PowerShell. `yt-dlp` is not installed globally, and its per-video detail lookups fail without a JavaScript runtime.
+- Two machines are in play: **Windows / PowerShell** (`C:/_source/obsidian/...`) and **Linux** (`/home/limered/Projects/main/dev/...`). Check which one you are on before using vault paths.
+- On Windows, `yt-dlp` is not installed globally, and its per-video detail lookups fail without a JavaScript runtime.
